@@ -18,12 +18,14 @@
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
-  border-radius: 10px;
+  border-radius: 8px;
+  transition: 0.4s ease-in-out all !important;
 }
 
 .btn {
   background-color: var(--Orange) !important;
   font-weight: bold !important;
+  transition: 0.3s ease-in-out all;
 }
 .Relased {
   color: var(--WhiteGray);
@@ -35,4 +37,12 @@
 .imgae-keyboard {
   background-color: var(--Orange);
   filter: url(100%);
+}
+
+.nav-btn:hover {
+  background-color: var(--DarkBlue) !important;
+  color: var(--white);
+}
+.btn:hover {
+  background-color: var(--WhiteOrange) !important;
 }
